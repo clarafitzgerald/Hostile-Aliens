@@ -1,0 +1,23 @@
+{
+  "name": "hostile-aliens",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "all": "^0.0.0",
+    "jshint": "^2.10.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.3.3",
+    "@babel/preset-env": "^7.3.1",
+    "babel-jest": "^24.1.0",
+    "jest": "^24.1.0"
+  },
+  "scripts": {
+    "test-solution": "jest",
+    "lint": "jshint ./src/",
+    "test": "jest --config jest-challenge.config.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
